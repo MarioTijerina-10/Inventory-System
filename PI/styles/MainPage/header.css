@@ -1,0 +1,77 @@
+.HeaderLogo{
+    height: 45px;
+}
+
+.Header{
+    position: fixed;
+    top: 0;    
+    z-index: 1000;
+    display: flex;  
+    align-items: center;    
+    background: rgb(255, 255, 255);
+    margin:0px;
+    height: 60px;
+    width: 100%;
+    transition: height 0.3s;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.227);
+}
+
+.Header.scrolled{  
+    height: 65px;
+}
+
+.RightHeader{
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    align-items: center, flex-end;
+    padding-right: 30px;
+}
+.SolicitButton {
+    background: none;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    font-family: 'Segoe UI';
+    margin-left: 20px;
+    font-size: 17px;
+    border: 3px solid transparent; 
+    padding: 5px 10px; 
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.SolicitButton:hover {
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px; 
+}
+
+.registrarse{
+    transition: all .5s ease;
+    color: #977d2e;
+    border: 3px solid #b9aa3c;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    background-color : transparent;
+    outline: none;
+    border-radius: 25px;
+    margin-left: 20px;
+    transition: transform 0.5s ease;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.registrarse:hover {
+    color: #ffffff;
+    background-image: linear-gradient(to right, #b69636, #d2c24e);
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}

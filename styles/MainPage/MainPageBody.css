@@ -1,0 +1,156 @@
+.container-image {
+    width: 100%;
+    position: relative;
+}
+
+.container-image img {
+    width: 100%;
+}
+
+.container-image::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, #505459, transparent);
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 2;
+}
+
+.overlay h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 10px; /* Reduce el margen inferior del título */
+}
+
+.overlay p {
+    font-size: 24px; /* Aumenta el tamaño de la fuente */
+    line-height: 1.2; /* Reduce el espacio entre líneas */
+}
+
+.contact-button {
+        background-image: linear-gradient(to right, #977d2e, #d2c24e);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 10px; 
+        cursor: pointer;
+        border-radius: 20px;
+        width: 220px;
+        height: 70px;
+        transition: transform 0.4s;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+}
+
+.contact-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.BigText{
+    text-align: center;
+    width: 1000px;
+    font-weight: 800;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Calibri';
+}
+
+.ServiceList{
+    display: flex;
+    align-items: space-between;
+    font-family: 'Calibri';
+}
+
+.ServiceListSection{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 400px;
+    font-family: 'Calibri';
+}
+
+.ServiceListText{
+    font-size: 22px;
+    font-weight: 400px;
+    margin-bottom: 5px;
+    font-family: 'Calibri';
+}
+
+.JobShowSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-image: linear-gradient(rgba(4, 38, 74, 0.9), rgba(0, 0, 60, 0.9)), 
+    url(/PI/images/MainPage/AirCondesersBackground.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.JobShowBlueBackground{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.JobImage{
+    flex: 200px;
+    width: 650px;
+    margin-top: 40px;
+    border: solid black;
+    border-radius: 50px;
+}
+
+.JobTitleText{
+    text-align: center;
+    color: #2a2a2a;
+    font-size: 30px;
+}
+
+.JobImageText{
+    font-size: 35px;
+    margin-top: 20px;
+    color: #f3f3f3 ;
+    text-align: center;
+}
+
+.HorizontalRule1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 5px;
+    background-color: black;
+    width: 1200px
+}
+
+.HorizontalRule2{
+    margin-top: 0PX;
+    margin-bottom: 30px;
+    height: 5px;
+    background-color: black;
+    width: 100%;
+}
+
+.VerticalRule{
+    width: 8px;
+    height: 600px;
+    background: black;
+}

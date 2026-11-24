@@ -1,0 +1,39 @@
+.slide {
+    flex: 200px;
+    width: 650px;
+    margin-top: 40px;
+    border: solid black;
+    border-radius: 50px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.TextSlide{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s linear;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.TextSlide.activated{
+    opacity: 1;
+}
+
+.JobImageDiv{
+    height: 450px;
+    width:  800px;
+    overflow: hidden;
+}
+
+.JobTextDiv{
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+    height: 100px;
+    width:700px;   
+    overflow: hidden;
+}

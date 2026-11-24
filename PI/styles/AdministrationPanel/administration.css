@@ -1,0 +1,115 @@
+
+.SideBar{
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 80px;
+    bottom: 0;
+    flex-direction: column;
+    align-items: center;
+    border-right: solid 1px rgb(51, 51, 51);
+    background: rgb(255, 255, 255);
+    width: 8vw;
+    min-width: 30px;
+}
+
+.SidebarLogo{
+    cursor: pointer;
+    width: 40%;
+}
+
+.TableView{
+    display: grid;
+    flex: 1;
+}
+
+.LogoText{
+    font-size: 15px;
+    margin: 0px;
+    background: linear-gradient(to right, #993366, #FF6633);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.LogoDiv:hover{
+    transform: scale(1.2);
+}
+
+.LogoDiv{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.MainContent{
+    margin-top: 20px;
+    margin-left: 10vw;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 88vw;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.widget {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.widget h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.styled-table th, .styled-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.filters-form {
+    margin-bottom: 10px;
+}
+
+.filters-form select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.solicitudes .highlight {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+    .SideBar {
+        position: static;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+
+    .MainContent{
+        margin-left: 0px;
+    }
+}

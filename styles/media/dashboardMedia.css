@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .MainContent {
+        margin-left: 0;
+    }
+
+    .dashboard {
+        grid-template-columns:1fr;
+    }
+}

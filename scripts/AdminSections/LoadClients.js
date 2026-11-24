@@ -1,0 +1,1 @@
+document.getElementById('ClientsForm').addEventListener('click', OpenForum);

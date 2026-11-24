@@ -1,0 +1,1 @@
+document.getElementById('exitForm').addEventListener('click', CloseForum);

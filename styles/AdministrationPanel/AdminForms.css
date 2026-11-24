@@ -1,0 +1,149 @@
+.AdminForm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: white;
+    border-radius: 25px;
+    padding: 25px;
+    width:90%;
+    margin-right: 0px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.227);
+}
+
+.FormRow{
+    display: flex;
+    justify-content: CENTER;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.FormEntry{
+    display: flex;
+    flex-basis: 30%;
+    flex-direction: column; 
+    align-items: flex-start;
+    padding-right: 15px;
+}
+
+.FormEntry Label{
+    padding-left: 7px;
+    color: #202020;
+}
+
+.FormEntry Input{
+    border-radius: 25px;
+    border: 1px solid #2c2c2c;
+    padding: 10px;
+    margin-top: 5px;
+    width: 95%;
+}
+
+.FormEntry select{
+  border-radius: 25px;
+  border: 1px solid #2c2c2c;
+  padding: 10px;
+  margin-top: 5px;
+  width: 95%;
+}
+
+.bookmarkBtn {
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 47%;
+  }
+  
+  .IconContainer {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(to bottom, #993366, #FF6633);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: 0.3s;
+  }
+  
+  .icon {
+    border-radius: 1px;
+  }
+  
+  .text {
+    height: 100%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 1;
+    transition-duration: 0.3s;
+    font-size: 1.04em;
+  }
+  
+  .bookmarkBtn:hover .IconContainer {
+    width: 90px;
+    transition-duration: 0.3s;
+  }
+  
+  .bookmarkBtn:hover .text {
+    transform: translate(10px);
+    width: 0;
+    font-size: 0;
+    transition-duration: 0.3s;
+  }
+  
+  .bookmarkBtn:active {
+    transform: scale(0.95);
+    transition-duration: 0.3s;
+  }
+
+  .BackgroundDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 60px;
+    bottom: 0;
+    background: #a5a5a593;
+  }
+
+  .FormContainer{
+    position: absolute;
+    padding: 20px; 
+    display: flex; 
+    justify-content:center; 
+    width: 90%;
+  }
+
+  .formExitBtn{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right: 5vw;
+    transition: 0.3s ease all;
+    height: 25px;
+    width: 25px;
+  }
+
+  .formExitBtn:hover{
+    width: 28px;
+    height: 28px;
+  }
+
+  .formTitle{
+    padding-bottom: 15px;
+  }

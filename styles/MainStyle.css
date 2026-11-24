@@ -1,0 +1,25 @@
+@import url(MainPage/header.css);
+@import url(MainPage/MainPageBody.css);
+@import url(MainPage/TransitionImages.css);
+@import url(MainPage/ContactsSection.css);
+@import url(MainPage/footer.css);
+@import url(AdministrationPanel/administration.css);
+@import url(AdministrationPanel/AdminForms.css);
+@import url(AdministrationPanel/TableGrid.css);
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+    background-color: #f3f3f3;
+    color: #2a2a2a;
+}
+
+.CenterText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
